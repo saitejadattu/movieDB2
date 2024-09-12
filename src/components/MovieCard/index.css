@@ -1,0 +1,76 @@
+.poster-size {
+  width: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.movie-card-container {
+  margin: 10px;
+  width: 200px;
+  height: 450px;
+  box-shadow: 0px 2px 4px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.movie-card-image {
+  height: 290px;
+  width: 200px;
+}
+.movie-content {
+  padding: 5px;
+  padding-left: 10px;
+  padding-top: 0px;
+  padding-right: 0px;
+  margin-top: 0px;
+}
+.movie-title {
+  font-size: 15px;
+}
+.view-details-button {
+  width: 100%;
+  border: 0px;
+  padding: 10px;
+}
+.view-details-button:hover {
+  background-color: aqua;
+}
+.movie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  /* border: 1px solid #fff;
+  border-radius: 20px; */
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  padding: 20px;
+  border-radius: 10px;
+}
+.movie:hover {
+  box-shadow: 3px 0px 15px 6px rgba(179, 177, 177, 0.1);
+}
+@media screen and (max-width: 1200px) {
+  .movie {
+    flex-grow: 1;
+  }
+}
+
+.view-details {
+  position: relative;
+  bottom: 0px;
+  align-self: stretch;
+  background-color: #8b1c15;
+  border: none;
+  height: 30px;
+  color: #fff;
+  border-radius: 10px;
+}
+@media screen and (max-width: 425px) {
+  .view-details {
+    align-self: center;
+  }
+}
+.view-details:hover {
+  background-color: yellow;
+  color: black;
+}

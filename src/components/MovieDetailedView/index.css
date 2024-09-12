@@ -1,0 +1,44 @@
+.poster-image {
+  height: 420px;
+  width: 250px;
+}
+.movie-detailed-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.poster-image-content-container {
+  align-self: center;
+}
+.poaster-path-container {
+  width: 60%;
+  padding-left: 30px;
+  color: white;
+  text-shadow: 0px 2px 4px black;
+}
+.cast-image {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+.poster-content-container {
+  display: flex;
+  overflow-y: auto;
+}
+.poster-content-container {
+  list-style-type: none;
+  margin-left: 0px;
+  padding-left: 0px;
+  margin: 20px;
+  margin-right: 0px;
+  margin-top: 0px;
+}
+.cast-list-item {
+  margin: 10px;
+}
+.cast-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
